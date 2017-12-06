@@ -1,4 +1,5 @@
 import random
+import time
 
 def build_dict():
     # build random words from the letters given in a list
@@ -11,7 +12,7 @@ def build_dict():
     earth_dict = {}
 
     # get a sample of random digits
-    digits = random.sample(xrange(0,9), 9)
+    digits = random.sample(xrange(0,10), 10)
 
     # associate letter to digit in a dictionary
     earth_dict = dict(zip(letters, digits))
@@ -19,6 +20,7 @@ def build_dict():
     return  earth_dict
 
 def build_words(earth_dict):
+    
     # build a list of words
     words = []
     word = ""
@@ -28,7 +30,6 @@ def build_words(earth_dict):
 
     # list of earth_dict keys
     letters = earth_dict.keys()
-    letters.append("")
 
     # iterate to find a word 
     # then add the word to words
@@ -40,9 +41,6 @@ def build_words(earth_dict):
             # add letter to word
             word += letters[random.randint(0,9)]
 
-
-        if word.startswith("W"):
-            print word
         # check if a word is valid
         if word in valid_words:
             words.append(word)
@@ -53,7 +51,10 @@ def build_words(earth_dict):
         else:
             word = ""
        
-        print words
     print words
 
+# start the timer
+ticks = time.time()
 build_words(build_dict())
+tocks = time.time()
+print (tocks - ticks)
