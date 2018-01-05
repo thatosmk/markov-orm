@@ -1,0 +1,201 @@
+from sql_python import SQLPy
+import pandas as pd
+import numpy as np
+from numpy.linalg import inv
+
+class PyMarkov():
+
+    def __init__(self, r, t, table_data):
+        """ 
+            build a markov model with absorbing states (r) and non-absorbing states
+            (t)
+        """
+        self.r = r
+        self.t = t
+        self.data = table_data
+    
+    def abs_states(self):
+        """ return the number of absorbing states """
+        return self.r
+
+    def trans_states(self):
+        """ return the number of transient states """
+        return self.t
+
+    def get_transient_matrix(self, matrix, r, t):
+        """ return non-absorbing matrix"""
+        return matrix[:t,r+2:]
+
+    def get_abs_matrix(self, matrix, r, t):
+        """ return absorbing matrix"""
+        return matrix[:t,:t]
+
+    def get_matrix_array(self):
+        """ given a database table, return the transition matrix """
+        matrix_arr = []
+
+        # create an array from the rows of the database table
+        for row in self.data:
+            matrix_arr.append(list(row))
+
+        return matrix_arr
+
+    def get_row_sum(self):
+        """ make row calculations on the array matrix with data from the table
+        """
+        return np.sum(self.get_matrix_array(), axis=1)
+
+    def get_col_sum(self):
+        """ make col calculations on the array matrix with data from the table
+        """
+        return np.sum(self.get_matrix_array(), axis=0)
+
+    def get_trans_matrix(self):
+        """ given a database table, return the transition matrix """
+        matrix_arr = []
+
+        # create an array from the rows of the database table
+        for row in self.data:
+            matrix_arr.append(list(row))
+       
+        # row sum calculations
+        row_sum = np.sum(matrix_arr, axis=1)
+        # column sum calculations
+        col_sum = np.sum(matrix_arr, axis=0)
+
+        # convert to an n*n array 
+        markov_matrix = np.array(matrix_arr)
+
+        # find the transitional matrix, give it same size as markov-matrix
+        transition= markov_matrix
+
+        # divide each row in the array by the total sum of that row
+        for i in range(0, len(row_sum)):
+            for j in range(0, len(col_sum)):
+                # divide each item by sum of its row
+                transition[i][j] =              round(float(markov_matrix[i][j])/float(row_sum[i]), 4)
+
+        return transition
+
+    """ ---------------IMPORTANT------------------"""
+    # look up the excel sheet on repaid and write off and add functionality
+    # for adding extra rows and columns from heidi
+    # also look into extending the code to run forecasting
+    """
+     define the canonical form of the arbitrary arbsorbing markov chain
+     renumber the states so that the transient states come first
+     if there are --r-- absorbing states, and --t-- transition states, the
+     canonical form will involve a --r-by-r-- identity matrix
+    """ 
+    def compute(self, matrix,r,t):
+        # convert matrix into a canonical form for a markov transition matrix
+        # indentity matrix is r-by-r
+        # slice the matrix to get a smaller matrix according to the canonical form
+        # groupings, slicing works like -- matrix[row[:], col[:]]
+        # r-by-r matrix
+        id_matrix = matrix[r+1:,r+1:]
+        # r-by-t matrix
+        zero_matrix = matrix[r+1:,:t]
+        # t-by-r matrix
+        r_matrix = matrix[:t,r+2:]
+
+        # therefore your non-absorbing matrix is t-by-t
+        q_matrix = matrix[:t,:t]
+
+        # you also need a t-by-t identity matrix
+        i_q = np.identity(t)
+
+        # compute the matrix N(fundamental matrix for the absorbing markov chain),
+        # the entry n_{ij} the number of times that a process
+        # is in the transient state s_j if it started in transient state s_i
+        n_matrix = inv(i_q - q_matrix )
+
+        # this could be a function on its own
+        # time to absorption, expected number of steps before the chain is absorbed
+        # given that the chain starts from state s_i where c has all entries as 1
+        # t = Nc
+        #c = np.transpose(np.array(col_sum[:4]))
+        # a dot product does matrix multiplication for np.arrays
+        #t_absorption = n_matrix.dot(np.transpose(c))
+
+        """ now find the absorption probabilities
+            this is a t-by-r matrix and its entries  give the probability that an
+            absorbing chain will be absorbed in the absorbing state s_j if it starts
+            in the transient state s_i
+            B = NR
+        """
+        # use this to calculate the repaid and write off amounts
+        b_matrix = n_matrix.dot(r_matrix)
+        
+        eventual_matrix = np.transpose(b_matrix).dot(self.get_row_sum())
+
+        return eventual_matrix
+
+    def forecast(self, n):
+        """ given the number of months, show a markov forecast """
+        
+        forecast_sum = []
+        forecast = []
+        # your current state is the initial state
+        prev_month = self.get_row_sum()
+
+        for i in range(0, n):
+            # multiply by the transition matrix    
+            if len(prev_month) <= 4:
+                product = np.transpose(self.get_trans_matrix()).dot((prev_month)) 
+            else:
+                product = np.transpose(self.get_trans_matrix()).dot((prev_month))
+
+            forecast.append(product)
+            # set new state to prev_state
+            prev_month = product 
+
+        return forecast
+
+""" define toString() -- print all the required matrices labelling them"""
+
+if __name__ == "__main__":
+
+
+    # get table data from database
+    query = "select * from markov"  
+    db = SQLPy() 
+    data = db.get_table(query)
+
+    # how many absorbing and non-absorbing states you got?
+    print "Enter the number of absorbing states: "
+    r = int(raw_input())
+
+    print "Enter the number of transient states: "
+    t = int(raw_input())
+
+    markov = PyMarkov(r, t, data)
+
+    # markov matrix from the table data 
+    matrix =  markov.get_trans_matrix()
+
+    """
+    print "Transition matrix"
+    print matrix 
+    print ""
+    print "Absorbing Matrix"
+    print ""
+    print markov.get_abs_matrix(matrix, r,t)
+    print "Non-Absorbing Matrix"
+    print markov.get_transient_matrix(matrix, r,t)
+    print ""
+    print "Row totals"
+    print markov.get_row_sum()
+    print ""
+    print "Row totals"
+    print markov.get_col_sum()
+    print ""
+    print "Eventual Repaid or write-off totals"
+    print markov.compute(matrix, r,t) """
+
+    print "How many months forecast do you want?"
+    n = int(raw_input())
+    print ""
+    print "forecase for "+str(n)+"  months"
+    for row in  markov.forecast(n):
+        print row

@@ -1,0 +1,461 @@
+2018-01-05 12:03:29,328:Welcome to PyMarkov
+
+
+2018-01-05 12:03:49,618:Printed Transition matrix [[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:04:50,589:Welcome to PyMarkov
+
+
+2018-01-05 12:04:59,690:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:15:17,970:startup:Welcome to PyMarkov
+
+
+2018-01-05 12:15:29,214:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:26:36,875:startup:Stared the console
+2018-01-05 12:26:36,875:startup:Connected to the database
+
+2018-01-05 12:26:57,664:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:26:57,664:<module>:Elapsed time %s0.0205190181732
+2018-01-05 12:28:45,940:startup:Stared the console
+2018-01-05 12:28:45,940:startup:Connected to the database
+
+2018-01-05 12:29:02,467:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:29:24,313:startup:Stared the console
+2018-01-05 12:29:24,313:startup:Connected to the database
+
+2018-01-05 12:29:32,249:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:29:32,249:<module>:Elapsed time 0.00124287605286milliseconds
+2018-01-05 12:50:57,628:<module>:Quit from program
+2018-01-05 12:54:29,354:startup:Stared the console
+2018-01-05 12:54:29,354:startup:Connected to the database
+
+2018-01-05 12:55:42,616:startup:Stared the console
+2018-01-05 12:55:42,616:startup:Connected to the database
+
+2018-01-05 12:55:54,016:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 12:55:54,016:<module>:Elapsed time 0.0652289390564 milliseconds
+2018-01-05 13:01:19,296:startup:Stared the console
+2018-01-05 13:01:19,303:startup:Connected to the database
+
+2018-01-05 13:01:21,779:__init__:Created SQLPy 
+2018-01-05 13:01:25,747:get_table:Executed query: select * from markov
+2018-01-05 13:02:03,414:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 13:02:03,415:<module>:Elapsed time 0.0668969154358 milliseconds
+2018-01-05 13:02:08,595:<module>:Unknown command show me
+2018-01-05 13:22:27,391:<module>:Quit from program
+2018-01-05 13:22:37,119:startup:Stared the console
+2018-01-05 13:22:37,120:startup:Connected to the database
+
+2018-01-05 13:22:38,114:__init__:Created SQLPy 
+2018-01-05 13:22:41,394:startup:Stared the console
+2018-01-05 13:22:41,394:startup:Connected to the database
+
+2018-01-05 13:22:41,686:__init__:Created SQLPy 
+2018-01-05 13:22:45,532:get_table:Executed query: select * from markov 
+ <sqlalchemy.engine.result.ResultProxy object at 0x7fdec1e88e90>
+2018-01-05 13:23:00,902:<module>:Quit from program
+2018-01-05 13:23:02,036:startup:Stared the console
+2018-01-05 13:23:02,036:startup:Connected to the database
+
+2018-01-05 13:23:02,330:__init__:Created SQLPy 
+2018-01-05 13:23:06,487:get_table:Executed query: select * from markov 
+ <sqlalchemy.engine.result.ResultProxy object at 0x7fc1009c0e90>
+2018-01-05 13:23:09,446:<module>:Quit from program
+2018-01-05 13:23:10,545:startup:Stared the console
+2018-01-05 13:23:10,545:startup:Connected to the database
+
+2018-01-05 13:23:10,836:__init__:Created SQLPy 
+2018-01-05 13:25:08,718:startup:Stared the console
+2018-01-05 13:25:08,718:startup:Connected to the database
+
+2018-01-05 13:25:09,024:__init__:Created SQLPy 
+2018-01-05 13:28:14,679:startup:Stared the console
+2018-01-05 13:28:14,679:startup:Connected to the database
+
+2018-01-05 13:28:14,970:__init__:Created SQLPy 
+2018-01-05 13:28:57,621:startup:Stared the console
+2018-01-05 13:28:57,621:startup:Connected to the database
+
+2018-01-05 13:28:57,959:__init__:Created SQLPy 
+2018-01-05 13:29:02,924:get_table:Executed query: select * from markov 
+ <sqlalchemy.engine.result.ResultProxy object at 0x7fbc514d0e90>
+2018-01-05 13:29:05,176:<module>:Quit from program
+2018-01-05 13:29:07,828:startup:Stared the console
+2018-01-05 13:29:07,829:startup:Connected to the database
+
+2018-01-05 13:29:08,120:__init__:Created SQLPy 
+2018-01-05 13:31:24,005:startup:Stared the console
+2018-01-05 13:31:24,005:startup:Connected to the database
+
+2018-01-05 13:31:24,295:__init__:Created SQLPy 
+2018-01-05 13:31:28,538:get_table:Executed query: select * from markov 
+ <sqlalchemy.engine.result.ResultProxy object at 0x7f564de6ce90>
+2018-01-05 13:31:37,757:<module>:Quit from program
+2018-01-05 13:32:32,525:startup:Stared the console
+2018-01-05 13:32:32,525:startup:Connected to the database
+
+2018-01-05 13:32:32,817:__init__:Created SQLPy 
+2018-01-05 13:33:40,573:startup:Stared the console
+2018-01-05 13:33:40,573:startup:Connected to the database
+
+2018-01-05 13:33:40,903:__init__:Created SQLPy 
+2018-01-05 13:36:46,527:startup:Stared the console
+2018-01-05 13:36:46,528:startup:Connected to the database
+
+2018-01-05 13:36:46,824:__init__:Created SQLPy 
+2018-01-05 13:55:23,011:startup:Stared the console
+2018-01-05 13:55:23,012:startup:Connected to the database
+
+2018-01-05 13:55:24,456:__init__:Created SQLPy 
+2018-01-05 15:29:33,673:startup:Stared the console
+2018-01-05 15:29:33,708:startup:Connected to the database
+
+2018-01-05 15:29:35,723:__init__:Created SQLPy 
+2018-01-05 15:30:27,711:startup:Stared the console
+2018-01-05 15:30:27,711:startup:Connected to the database
+
+2018-01-05 15:30:28,489:__init__:Created SQLPy 
+2018-01-05 15:30:33,196:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 29, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'me' in 'field list'") [SQL: 'select me from markov'] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-01-05 15:32:57,924:startup:Stared the console
+2018-01-05 15:32:57,924:startup:Connected to the database
+
+2018-01-05 15:32:58,217:__init__:Created SQLPy 
+2018-01-05 15:33:04,025:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 29, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'me' in 'field list'") [SQL: 'select me from markov'] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-01-05 15:33:26,565:startup:Stared the console
+2018-01-05 15:33:26,566:startup:Connected to the database
+
+2018-01-05 15:33:26,857:__init__:Created SQLPy 
+2018-01-05 15:33:32,346:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 30, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'me' in 'field list'") [SQL: 'select me from markov'] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-01-05 15:34:28,436:startup:Stared the console
+2018-01-05 15:34:28,436:startup:Connected to the database
+
+2018-01-05 15:34:28,729:__init__:Created SQLPy 
+2018-01-05 15:34:35,397:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 28, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'analytics_ryan.markoc' doesn't exist") [SQL: 'select me from markoc'] (Background on this error at: http://sqlalche.me/e/f405)
+2018-01-05 15:37:35,033:startup:Stared the console
+2018-01-05 15:37:35,033:startup:Connected to the database
+
+2018-01-05 15:37:35,327:__init__:Created SQLPy 
+2018-01-05 15:37:39,426:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 28, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'me' in 'field list'") [SQL: 'select me from markov'] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-01-05 15:38:12,876:startup:Stared the console
+2018-01-05 15:38:12,876:startup:Connected to the database
+
+2018-01-05 15:38:13,166:__init__:Created SQLPy 
+2018-01-05 15:38:15,037:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 28, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1") [SQL: 'select'] (Background on this error at: http://sqlalche.me/e/f405)
+2018-01-05 15:39:26,575:startup:Stared the console
+2018-01-05 15:39:26,575:startup:Connected to the database
+
+2018-01-05 15:39:26,866:__init__:Created SQLPy 
+2018-01-05 15:39:28,017:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 28, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sele' at line 1") [SQL: 'sele'] (Background on this error at: http://sqlalche.me/e/f405)
+2018-01-05 15:39:31,882:get_table:error: 
+Traceback (most recent call last):
+  File "/home/tetris/Dropbox/coretechno/markov_project/markovorm/sql_python.py", line 28, in get_table
+    res = self.con.execute(query)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1104, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sel' at line 1") [SQL: 'sel'] (Background on this error at: http://sqlalche.me/e/f405)
+2018-01-05 15:39:36,890:get_table:Valid query select * from markov
+2018-01-05 15:40:14,961:<module>:Quit from program
+2018-01-05 16:18:18,488:startup:Stared the console
+2018-01-05 16:18:18,508:startup:Connected to the database
+
+2018-01-05 16:18:20,065:__init__:Created SQLPy 
+2018-01-05 16:18:25,210:get_table:Valid query select * from markov
+2018-01-05 16:19:31,857:startup:Stared the console
+2018-01-05 16:19:31,857:startup:Connected to the database
+
+2018-01-05 16:19:34,237:__init__:Created SQLPy 
+2018-01-05 16:19:39,876:get_table:Valid query select * from markov
+2018-01-05 16:21:29,486:<module>:Quit from program
+2018-01-05 16:21:34,445:startup:Stared the console
+2018-01-05 16:21:34,446:startup:Connected to the database
+
+2018-01-05 16:21:34,799:__init__:Created SQLPy 
+2018-01-05 16:21:40,084:get_table:Valid query select * from markov
+2018-01-05 16:21:48,855:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 16:24:01,515:startup:Stared the console
+2018-01-05 16:24:01,515:startup:Connected to the database
+
+2018-01-05 16:24:01,916:__init__:Created SQLPy 
+2018-01-05 16:24:06,658:get_table:Valid query select * from markov
+2018-01-05 16:24:32,757:startup:Stared the console
+2018-01-05 16:24:32,757:startup:Connected to the database
+
+2018-01-05 16:24:33,581:__init__:Created SQLPy 
+2018-01-05 16:24:37,878:get_table:Valid query select * from markov
+2018-01-05 16:24:41,351:<module>:Printed Absorbing matrix 
+[[1000.0, 50.0, 0.0, 0.0, 20.0, 2.0], [10.0, 200.0, 30.0, 0.0, 5.0, 5.0], [5.0, 20.0, 150.0, 50.0, 4.0, 10.0], [1.0, 10.0, 30.0, 100.0, 1.0, 75.0]]
+2018-01-05 16:25:18,860:<module>:Quit from program
+2018-01-05 16:25:22,630:startup:Stared the console
+2018-01-05 16:25:22,630:startup:Connected to the database
+
+2018-01-05 16:25:22,921:__init__:Created SQLPy 
+2018-01-05 16:25:27,581:get_table:Valid query select * from markov
+2018-01-05 16:25:57,890:startup:Stared the console
+2018-01-05 16:25:57,890:startup:Connected to the database
+
+2018-01-05 16:25:58,227:__init__:Created SQLPy 
+2018-01-05 16:26:02,914:get_table:Valid query select * from markov
+2018-01-05 16:26:11,907:<module>:Printed Absorbing matrix 
+<type 'list'>
+2018-01-05 16:27:53,602:<module>:Quit from program
+2018-01-05 16:27:56,014:startup:Stared the console
+2018-01-05 16:27:56,014:startup:Connected to the database
+
+2018-01-05 16:27:56,305:__init__:Created SQLPy 
+2018-01-05 16:28:00,868:get_table:Valid query select * from markov
+2018-01-05 16:28:04,844:<module>:Printed Absorbing matrix 
+<type 'numpy.ndarray'>
+2018-01-05 16:28:32,711:<module>:Quit from program
+2018-01-05 16:28:35,447:startup:Stared the console
+2018-01-05 16:28:35,447:startup:Connected to the database
+
+2018-01-05 16:28:35,745:__init__:Created SQLPy 
+2018-01-05 16:28:41,240:get_table:Valid query select * from markov
+2018-01-05 16:28:45,176:<module>:Printed Absorbing matrix 
+[[ 1000.    50.     0.     0.]
+ [   10.   200.    30.     0.]
+ [    5.    20.   150.    50.]
+ [    1.    10.    30.   100.]]
+2018-01-05 16:30:02,455:<module>:Quit from program
+2018-01-05 16:30:07,363:startup:Stared the console
+2018-01-05 16:30:07,363:startup:Connected to the database
+
+2018-01-05 16:30:08,014:__init__:Created SQLPy 
+2018-01-05 16:30:15,694:get_table:Valid query select * from markov
+2018-01-05 16:30:24,289:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 16:31:08,121:<module>:Quit from program
+2018-01-05 16:31:12,049:startup:Stared the console
+2018-01-05 16:31:12,050:startup:Connected to the database
+
+2018-01-05 16:31:12,339:__init__:Created SQLPy 
+2018-01-05 16:31:18,639:get_table:Valid query select * from markov
+2018-01-05 16:33:00,292:<module>:Quit from program
+2018-01-05 16:33:08,267:startup:Stared the console
+2018-01-05 16:33:08,267:startup:Connected to the database
+
+2018-01-05 16:33:08,558:__init__:Created SQLPy 
+2018-01-05 16:33:12,408:get_table:Valid query select * from markov
+2018-01-05 16:33:17,494:<module>:Printed non-absorbing matrix 
+[[ 20.   2.]
+ [  5.   5.]
+ [  4.  10.]
+ [  1.  75.]]
+2018-01-05 16:33:38,072:<module>:Printed Absorbing matrix 
+[[ 1000.    50.     0.     0.]
+ [   10.   200.    30.     0.]
+ [    5.    20.   150.    50.]
+ [    1.    10.    30.   100.]]
+2018-01-05 17:07:24,781:<module>:Printed Transition matrix 
+[[ 0.9328  0.0466  0.      0.      0.0187  0.0019]
+ [ 0.04    0.8     0.12    0.      0.02    0.02  ]
+ [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
+ [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
+2018-01-05 17:07:39,641:<module>:Quit from program

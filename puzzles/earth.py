@@ -1,6 +1,24 @@
 import random
 import time
 
+
+def multi_thread():
+
+    # create and start threads here
+    # find the combination of words that all form a word and keep those in a
+    # list
+    
+
+def thread_target():
+    # find the combination of digits that combine to form words
+    # these words will add up to give the word (Earth)
+    words = []
+    word = ""
+    valid_words = ['EARTH','EAST', 'NORTH', 'SOUTH','WEST']
+
+    # form a word
+    for i in range()
+
 def build_dict():
     # build random words from the letters given in a list
     # the letters are associalted with them, a digit,
@@ -41,6 +59,8 @@ def build_words(earth_dict):
             # add letter to word
             word += letters[random.randint(0,9)]
 
+
+def validate_word(word, valid_words):
         # check if a word is valid
         if word in valid_words:
             words.append(word)
@@ -51,8 +71,6 @@ def build_words(earth_dict):
         else:
             word = ""
        
-    print words
-
 # start the timer
 ticks = time.time()
 build_words(build_dict())
