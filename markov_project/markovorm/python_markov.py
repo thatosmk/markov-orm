@@ -40,6 +40,7 @@ class PyMarkov():
         r = self.abs_states()
         return matrix[:t,:t]
 
+
     def get_matrix_array(self):
         """ given a database table, return the transition matrix """
         matrix_arr = []
@@ -50,15 +51,18 @@ class PyMarkov():
 
         return np.array(matrix_arr)
 
+
     def get_row_sum(self):
         """ make row calculations on the array matrix with data from the table
         """
         return np.sum(self.get_matrix_array(), axis=1)
 
+
     def get_col_sum(self):
         """ make col calculations on the array matrix with data from the table
         """
         return np.sum(self.get_matrix_array(), axis=0)
+
 
     def get_trans_matrix(self):
         """ given a database table, return the transition matrix """
@@ -87,6 +91,7 @@ class PyMarkov():
 
         return np.array(transition)
 
+
     def time_to_absorb(self, c_state):
         """ from current state c_state, how many iterations are needed to reach
         absorption """
@@ -94,6 +99,7 @@ class PyMarkov():
         c = np.transpose(c_state)
         # a dot product does matrix multiplication for np.arrays
         return n_matrix.dot(np.transpose(c))
+
 
     def compute(self, matrix):
         """
@@ -141,80 +147,5 @@ class PyMarkov():
     # currently not working as expected
     def forecast(self, n):
         """ given the number of months, show a markov forecast """
-        
-        forecast_sum = []
-        forecast = []
-        # your current state is the initial state
-        prev_month = self.get_row_sum()
-        product = []
-        for i in range(0, n):
-            # multiply by the transition matrix    
-            product = np.transpose(self.get_trans_matrix()).dot((prev_month)) 
-            #product = (self.get_trans_matrix()).dot(np.transpose(prev_month))
+            pass
 
-        print ""
-        print "product"
-        print product
-
-        print ""
-        print "Transition Matrix"
-        print self.get_trans_matrix()
-
-        new_product = np.multiply(self.get_trans_matrix(), (product)) 
-        print ""
-        print "product"
-        print new_product
-        forecast.append(product)
-        # set new state to prev_state
-        prev_month = product 
-
-        return forecast
-
-""" define toString() -- print all the required matrices labelling them"""
-
-if __name__ == "__main__":
-
-
-    # get table data from database
-    query = "select * from markov"  
-    db = SQLPy() 
-    data = db.get_table(query)
-
-    # how many absorbing and non-absorbing states you got?
-    #print "Enter the number of absorbing states: "
-    #r = int(raw_input())
-
-    #print "Enter the number of transient states: "
-    #t = int(raw_input())
-
-    markov = PyMarkov(data)
-
-    # markov matrix from the table data 
-    matrix =  markov.get_trans_matrix()
-
-    """
-    print "Transition matrix"
-    print matrix 
-    print ""
-    print "Absorbing Matrix"
-    print ""
-    print markov.get_abs_matrix(matrix, r,t)
-    print "Non-Absorbing Matrix"
-    print markov.get_transient_matrix(matrix, r,t)
-    print ""
-    print "Row totals"
-    print markov.get_row_sum()
-    print ""
-    print "Row totals"
-    print markov.get_col_sum()
-    print ""
-    print "Eventual Repaid or write-off totals"
-    print markov.compute(matrix, r,t) 
-
-    print "How many months forecast do you want?"
-    n = int(raw_input())
-    print ""
-    print "forecase for "+str(n)+"  months"
-    for row in  markov.forecast(n):
-        print row"""
-    #print 

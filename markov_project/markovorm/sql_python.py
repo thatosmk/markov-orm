@@ -59,10 +59,3 @@ class SQLPy():
         # insert the data into a database
         self.con.execute(query_2)
 
-"""
-if __name__ == "__main__":
-
-    sql = SQLPy()
-
-    print sql.get_table("select * from markov")
-"""

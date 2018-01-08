@@ -128,6 +128,8 @@ if __name__ == "__main__":
         elif cmd == "help": 
             logging.debug("Looked up help commands")
             common_cmds()
+        elif cmd == "show forecast": 
+            print markov.forecast(2)
         else:
             print "Sorry unknown command"
             logging.debug("Unknown command: %s" % cmd)

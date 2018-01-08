@@ -459,3 +459,68 @@ ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error
  [ 0.0209  0.0837  0.6276  0.2092  0.0167  0.0418]
  [ 0.0046  0.0461  0.1382  0.4608  0.0046  0.3456]]
 2018-01-05 17:07:39,641:<module>:Quit from program
+2018-01-08 10:20:36,979:startup:Stared the console
+2018-01-08 10:20:37,000:startup:Connected to the database
+
+2018-01-08 10:20:38,247:__init__:Created SQLPy 
+2018-01-08 10:20:42,304:get_table:Valid query select * from markov
+2018-01-08 10:31:14,801:startup:Stared the console
+2018-01-08 10:31:14,801:startup:Connected to the database
+
+2018-01-08 10:31:15,916:__init__:Created SQLPy 
+2018-01-08 10:31:20,218:get_table:Valid query select * from markov
+2018-01-08 10:32:55,807:startup:Stared the console
+2018-01-08 10:32:55,807:startup:Connected to the database
+
+2018-01-08 10:32:56,380:__init__:Created SQLPy 
+2018-01-08 10:33:20,272:startup:Stared the console
+2018-01-08 10:33:20,272:startup:Connected to the database
+
+2018-01-08 10:33:20,562:__init__:Created SQLPy 
+2018-01-08 10:33:24,094:get_table:Valid query select * from markov
+2018-01-08 10:34:38,855:startup:Stared the console
+2018-01-08 10:34:38,855:startup:Connected to the database
+
+2018-01-08 10:34:39,149:__init__:Created SQLPy 
+2018-01-08 10:34:43,307:get_table:Valid query select * from markov
+2018-01-08 10:35:22,584:<module>:Unknown command: 
+2018-01-08 10:35:26,289:<module>:Quit from program
+2018-01-08 10:37:19,283:startup:Stared the console
+2018-01-08 10:37:19,283:startup:Connected to the database
+
+2018-01-08 10:37:19,593:__init__:Created SQLPy 
+2018-01-08 10:37:24,555:get_table:Valid query select * from markov
+2018-01-08 10:37:37,985:<module>:Unknown command: 
+2018-01-08 10:37:39,702:<module>:Quit from program
+2018-01-08 10:38:02,948:startup:Stared the console
+2018-01-08 10:38:02,948:startup:Connected to the database
+
+2018-01-08 10:38:03,240:__init__:Created SQLPy 
+2018-01-08 10:38:07,160:get_table:Valid query select * from markov
+2018-01-08 10:41:44,124:startup:Stared the console
+2018-01-08 10:41:44,124:startup:Connected to the database
+
+2018-01-08 10:41:44,760:__init__:Created SQLPy 
+2018-01-08 10:41:49,478:get_table:Valid query select * from markov
+2018-01-08 10:42:18,274:startup:Stared the console
+2018-01-08 10:42:18,274:startup:Connected to the database
+
+2018-01-08 10:42:18,564:__init__:Created SQLPy 
+2018-01-08 10:42:23,462:get_table:Valid query select * from markov
+2018-01-08 10:43:13,573:startup:Stared the console
+2018-01-08 10:43:13,573:startup:Connected to the database
+
+2018-01-08 10:43:13,869:__init__:Created SQLPy 
+2018-01-08 10:43:18,913:get_table:Valid query select * from markov
+2018-01-08 10:49:35,265:<module>:Quit from program
+2018-01-08 10:50:12,005:startup:Stared the console
+2018-01-08 10:50:12,005:startup:Connected to the database
+
+2018-01-08 10:50:12,709:__init__:Created SQLPy 
+2018-01-08 10:50:16,018:get_table:Valid query select * from markov
+2018-01-08 10:58:50,830:<module>:Quit from program
+2018-01-08 10:59:00,863:startup:Stared the console
+2018-01-08 10:59:00,863:startup:Connected to the database
+
+2018-01-08 10:59:01,162:__init__:Created SQLPy 
+2018-01-08 10:59:06,581:get_table:Valid query select * from markov
