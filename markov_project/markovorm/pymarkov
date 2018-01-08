@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# run the python console script
+./console.py
