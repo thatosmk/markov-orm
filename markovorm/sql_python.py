@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-#from setup import *
+from setup import *
 import logging
 """ connect sql server to python """
 

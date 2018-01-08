@@ -2,6 +2,15 @@ from sql_python import SQLPy
 import pandas as pd
 import numpy as np
 from numpy.linalg import inv
+import logging 
+
+
+logging.basicConfig(
+        filename="test.log",
+        level=logging.DEBUG,
+        format="%(asctime)s:%(funcName)s:%(message)s"
+        )
+
 
 class PyMarkov():
 
@@ -147,5 +156,22 @@ class PyMarkov():
     # currently not working as expected
     def forecast(self, n):
         """ given the number of months, show a markov forecast """
-            pass
 
+        # initialise the matrices
+        prev_month = self.get_row_sum()
+        trans_matrix = self.get_trans_matrix()
+        print prev_month
+        print ""
+        print trans_matrix
+        for i in range(0, n):
+            product = np.transpose(trans_matrix).dot((prev_month))
+            print ""
+            print prev_month
+            print ""
+            print product
+            # update prev_month
+            prev_month = product[:4]
+            logging.debug("forcast: ")
+            logging.debug(prev_month)
+
+        return prev_month

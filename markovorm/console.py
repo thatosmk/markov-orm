@@ -74,6 +74,7 @@ def common_cmds():
     """ print common commands for user to get started """
     print "Type 'show transition matrix' to get the transition matrix"
     print "     'quit' to exit" 
+    print "     'show forecast' to forecast"
     print "     'show data' to get the matrix before transition matrix" 
     print "     'show absorbing' to get the absorbing matrix" 
     print "     'show non-absorbing' to get the absorbing matrix" 
@@ -129,7 +130,8 @@ if __name__ == "__main__":
             logging.debug("Looked up help commands")
             common_cmds()
         elif cmd == "show forecast": 
-            print markov.forecast(2)
+            n = int(raw_input("Enter number of months: "))
+            print markov.forecast(n)
         else:
             print "Sorry unknown command"
             logging.debug("Unknown command: %s" % cmd)

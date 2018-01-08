@@ -1,0 +1,5 @@
+user="Ryan"
+password="Ryan12345"
+server="analytics.technocore.co.za:3306"
+database="analytics_ryan"
+driver="mysqldb"
